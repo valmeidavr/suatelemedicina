@@ -1,0 +1,392 @@
+/* 
+    # Template Telemedicina 
+    # Versão Beta
+    # Autor: Prof. Vinícius Almeida
+    # Empresa: Brasmid
+
+    # Observações:
+        CALC (Pixel para Rem)
+            62.5% = 10px 
+            1.2rem  = 12px
+            .8rem   = 8px
+*/
+
+.hiddens {
+    visibility: hidden;
+}
+
+:root {
+    font-size: 62.5%; 
+    --cor-principal: #0D417F;
+    --cor-menu-hover: #1c59a2;
+    --cor-menu-minha-conta: #0c2a4e;
+    --cor-slider-box: rgba(56, 89, 136, 0.31);
+    --cor-button-azul: #3D83DF;
+    --cor-etapas-paragrafo: #757575;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'roboto', arial, helvetica, sans-serif;
+}
+
+
+/* Cabeçalho e Pesquisa */
+header { 
+    width: 100%;
+    background-color: var(--cor-principal);
+    font-weight: 500;
+}
+
+header a {
+    text-decoration: none;
+   
+}
+
+/* Margin Centraliza para Resoluções Maiores */
+.container {
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+.header-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 108px;
+}
+
+
+.logo {   
+    margin-left: 44px;
+}
+
+
+.menu-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-options a{
+    color: white;
+}
+
+
+.menu-options > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-options > ul > li{
+    display: flex;
+    justify-content: center;
+    margin: 0 7px;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 130px;
+    margin-right: 20px;
+}
+
+.menu-options > ul > li:hover{
+    background-color: var(--cor-menu-hover);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.menu-responsive {
+    display: none;
+
+}
+
+.my-account {
+  background-color: var(--cor-menu-minha-conta);
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.slider {  
+    width: 100%;
+    background: linear-gradient(180deg, #4B79BA 0%, #4B79BA 100%);
+   
+}
+
+.slider-contents {
+    display: flex;
+    justify-content:space-between;
+    height: 486px;
+}
+
+
+.slider-contents > .slider-medical {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-bottom: -2px;
+}
+
+.slider-search {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   /*  background-color: red;  */
+    margin: 170px 0px 20px 57px;
+
+   
+}
+
+.slider-search > h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 91.69%;
+    color: #FFFFFF;
+    margin-bottom: 15px;    
+}
+
+.slider-search > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.9rem;
+    line-height: 91.69%;
+    color: rgba(255, 255, 255, 0.83);
+
+}
+
+.slider-search-box {
+    width: 500px;
+    height: 95px;
+    background: var( --cor-slider-box);
+    border-radius: 4px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.slider-search-box button {
+    width: 129px;
+    height: 58px;
+    background: var(--cor-button-azul);
+    border-radius: 4px;
+    color: white;
+    border-style: none;
+    font-size: 1.5rem;
+}
+
+.slider-search-box button:hover {
+    background-color: var(--cor-menu-hover);
+}
+
+.slider-search-box select {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: rgb(70, 68, 68);
+    width: 340px;
+    height: 57px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    margin-left: 14px;
+}   
+
+
+/* Etapas */
+.steps {
+    display: flex;
+    height: auto;
+    align-items: flex-start;
+}
+
+.steps-contents {
+    display: flex;
+    max-width: 1276px;
+    margin: 30px 55px 55px 55px;
+    flex-wrap: wrap;
+
+}
+
+.steps-contents > article {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 150px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+
+.steps-contents > article {
+    background: #e3eef4;
+    margin-right: 4px;
+    margin-bottom: 4px;
+   
+}
+
+.steps-contents > article > h3 {
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.steps-contents > article > h3 > i{
+    color: var(--cor-button-azul);
+}
+
+.steps-contents > article > p {
+    font-size: 1.4rem;
+    color: var(--cor-etapas-paragrafo);
+}
+
+.form-search > select > option {
+  text-align: center;
+}
+
+/* Responsividade Tablet */
+@media only screen and (max-width: 1160px) {
+    /* Esconder Menu WEB e Abrir Mobile */
+
+    .menu-web {
+      display: none;
+    }
+    
+    .menu-responsive {
+        display: block;
+        margin-right: 20px;
+    
+    }
+    
+    .menu-responsive a{
+        color: white;
+        font-size: 2.8rem;
+        
+    }   
+
+    .menu-mobile {
+        display: block;
+        position: absolute;
+        float: right;
+        top: 80px;
+        background-color: white;
+        width: 140px;
+        right: 20px;
+        border-radius: 4px;
+        line-height: 30px;
+    }
+
+    .menu-options-mobile ul {
+        margin-left: 10px;
+        display: none;
+        padding: 10px;
+        font-size: 1.3rem;
+        text-align: left;
+        
+    }
+
+   
+    .menu-options-mobile a {
+        color: rgb(53, 53, 53);
+    }
+
+    .menu-options-mobile li:hover {
+        background-color: #ededed;
+        border-radius: 4px;
+    }
+
+      
+    .logo {
+        flex:1;
+        margin-left: 44px;
+    }
+
+    .slider-contents > .slider-medical {
+        display: none;
+    }
+
+    .slider-search { 
+       margin-top: 170px; 
+       margin-left: 54px;
+       align-items: center;
+      
+    }
+
+
+  }
+
+/* Responsividade Celular */
+@media only screen and (max-width: 600px) {
+    .slider-search { 
+        margin-top: 140px; 
+        margin-left: 0;
+        
+     }
+
+     .form-search {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+     }
+
+
+     .slider-search > h1 {
+        font-size: 2.6rem;
+    }
+    
+    .slider-search > h2 {
+        font-size: 1.4rem;
+ 
+    }
+    
+    .slider-search-box {
+        width: 420px;
+        height: 185px;
+        background: var( --cor-slider-box);
+        border-radius: 4px;
+        margin-top: 30px;
+      
+    }
+    
+    .slider-search-box button {
+        width: 129px;
+        height: 58px;
+        background: var(--cor-button-azul);
+        border-radius: 4px;
+        color: white;
+        border-style: none;
+        font-size: 1.5rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .slider-search-box button:hover {
+        background-color: var(--cor-menu-hover);
+    }
+    
+    .slider-search-box select {
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: rgb(70, 68, 68);
+        width: 340px;
+        height: 57px;
+        border: 1px solid #E5E5E5;
+        border-radius: 4px;
+        margin-left: 14px;
+        margin-top: 30px;
+    }   
+
+}
