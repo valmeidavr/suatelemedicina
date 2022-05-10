@@ -49,7 +49,7 @@ header a {
 /* Margin Centraliza para Resoluções Maiores */
 .container {
     margin: 0 auto;
-    max-width: 1366px;
+    max-width: 88%;
 }
 
 .header-contents {
@@ -195,39 +195,38 @@ header a {
     font-weight: 500;
     font-size: 1.6rem;
     color: rgb(70, 68, 68);
-    width: 340px;
+    width: 330px;
     height: 57px;
     border: 1px solid #E5E5E5;
     border-radius: 4px;
     margin-left: 14px;
+    margin-right: 14px;
 }   
 
 
 /* Etapas */
 .bg-steps {
+    display: flex;
+    align-items: center;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1037%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(216%2c 218%2c 221%2c 1)'%3e%3c/rect%3e%3cpath d='M38.68 -20.77L103.63 16.73L103.63 91.73L38.68 129.23L-26.27 91.73L-26.27 16.73zM103.63 316.73L168.59 354.23L168.59 429.23L103.63 466.73L38.68 429.23L38.68 354.23zM103.63 541.73L168.59 579.23L168.59 654.23L103.63 691.73L38.68 654.23L38.68 579.23zM233.54 91.73L298.5 129.23L298.5 204.23L233.54 241.73L168.59 204.23L168.59 129.23zM233.54 541.73L298.5 579.23L298.5 654.23L233.54 691.73L168.59 654.23L168.59 579.23zM298.5 -20.77L363.45 16.73L363.45 91.73L298.5 129.23L233.54 91.73L233.54 16.73zM363.45 91.73L428.4 129.23L428.4 204.23L363.45 241.73L298.5 204.23L298.5 129.23zM428.4 -20.77L493.36 16.73L493.36 91.73L428.4 129.23L363.45 91.73L363.45 16.73zM428.4 204.23L493.36 241.73L493.36 316.73L428.4 354.23L363.45 316.73L363.45 241.73zM428.4 429.23L493.36 466.73L493.36 541.73L428.4 579.23L363.45 541.73L363.45 466.73zM558.31 -20.77L623.26 16.73L623.26 91.73L558.31 129.23L493.36 91.73L493.36 16.73zM623.26 91.73L688.22 129.23L688.22 204.23L623.26 241.73L558.31 204.23L558.31 129.23zM558.31 204.23L623.26 241.73L623.26 316.73L558.31 354.23L493.36 316.73L493.36 241.73zM623.26 316.73L688.22 354.23L688.22 429.23L623.26 466.73L558.31 429.23L558.31 354.23zM558.31 429.23L623.26 466.73L623.26 541.73L558.31 579.23L493.36 541.73L493.36 466.73zM753.17 91.73L818.13 129.23L818.13 204.23L753.17 241.73L688.22 204.23L688.22 129.23zM688.22 204.23L753.17 241.73L753.17 316.73L688.22 354.23L623.26 316.73L623.26 241.73zM688.22 429.23L753.17 466.73L753.17 541.73L688.22 579.23L623.26 541.73L623.26 466.73zM818.12 -20.77L883.08 16.73L883.08 91.73L818.12 129.23L753.17 91.73L753.17 16.73zM818.12 204.23L883.08 241.73L883.08 316.73L818.12 354.23L753.17 316.73L753.17 241.73zM883.08 316.73L948.03 354.23L948.03 429.23L883.08 466.73L818.12 429.23L818.12 354.23zM948.03 -20.77L1012.99 16.73L1012.99 91.73L948.03 129.23L883.08 91.73L883.08 16.73zM1012.99 91.73L1077.94 129.23L1077.94 204.23L1012.99 241.73L948.03 204.23L948.03 129.23zM948.03 204.23L1012.99 241.73L1012.99 316.73L948.03 354.23L883.08 316.73L883.08 241.73zM1012.99 316.73L1077.94 354.23L1077.94 429.23L1012.99 466.73L948.03 429.23L948.03 354.23zM1142.89 91.73L1207.85 129.23L1207.85 204.23L1142.89 241.73L1077.94 204.23L1077.94 129.23zM1077.94 429.23L1142.89 466.73L1142.89 541.73L1077.94 579.23L1012.99 541.73L1012.99 466.73zM1142.89 541.73L1207.85 579.23L1207.85 654.23L1142.89 691.73L1077.94 654.23L1077.94 579.23zM1207.85 204.23L1272.8 241.73L1272.8 316.73L1207.85 354.23L1142.89 316.73L1142.89 241.73zM1207.85 429.23L1272.8 466.73L1272.8 541.73L1207.85 579.23L1142.89 541.73L1142.89 466.73zM1337.76 -20.77L1402.71 16.73L1402.71 91.73L1337.76 129.23L1272.8 91.73L1272.8 16.73zM1337.76 204.23L1402.71 241.73L1402.71 316.73L1337.76 354.23L1272.8 316.73L1272.8 241.73zM1532.62 91.73L1597.57 129.23L1597.57 204.23L1532.62 241.73L1467.66 204.23L1467.66 129.23zM1532.62 316.73L1597.57 354.23L1597.57 429.23L1532.62 466.73L1467.66 429.23L1467.66 354.23z' stroke='rgba(111%2c 182%2c 253%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M41.15 109.78L84.45 134.78L84.45 184.78L41.15 209.78L-2.15 184.78L-2.15 134.78zM41.15 409.78L84.45 434.78L84.45 484.78L41.15 509.78L-2.15 484.78L-2.15 434.78zM127.75 259.78L171.06 284.78L171.06 334.78L127.75 359.78L84.45 334.78L84.45 284.78zM214.36 -40.22L257.66 -15.22L257.66 34.78L214.36 59.78L171.06 34.78L171.06 -15.22zM214.36 259.78L257.66 284.78L257.66 334.78L214.36 359.78L171.06 334.78L171.06 284.78zM300.96 -40.22L344.27 -15.22L344.27 34.78L300.96 59.78L257.66 34.78L257.66 -15.22zM344.27 334.78L387.57 359.78L387.57 409.78L344.27 434.78L300.96 409.78L300.96 359.78zM344.27 484.78L387.57 509.78L387.57 559.78L344.27 584.78L300.96 559.78L300.96 509.78zM387.57 109.78L430.87 134.78L430.87 184.78L387.57 209.78L344.27 184.78L344.27 134.78zM474.18 -40.22L517.48 -15.22L517.48 34.78L474.18 59.78L430.87 34.78L430.87 -15.22zM517.48 484.78L560.78 509.78L560.78 559.78L517.48 584.78L474.18 559.78L474.18 509.78zM560.78 -40.22L604.08 -15.22L604.08 34.78L560.78 59.78L517.48 34.78L517.48 -15.22zM560.78 109.78L604.08 134.78L604.08 184.78L560.78 209.78L517.48 184.78L517.48 134.78zM560.78 409.78L604.08 434.78L604.08 484.78L560.78 509.78L517.48 484.78L517.48 434.78zM647.38 -40.22L690.69 -15.22L690.69 34.78L647.38 59.78L604.08 34.78L604.08 -15.22zM690.69 34.78L733.99 59.78L733.99 109.78L690.69 134.78L647.38 109.78L647.38 59.78zM690.69 184.78L733.99 209.78L733.99 259.78L690.69 284.78L647.38 259.78L647.38 209.78zM690.69 334.78L733.99 359.78L733.99 409.78L690.69 434.78L647.38 409.78L647.38 359.78zM690.69 484.78L733.99 509.78L733.99 559.78L690.69 584.78L647.38 559.78L647.38 509.78zM777.29 34.78L820.6 59.78L820.6 109.78L777.29 134.78L733.99 109.78L733.99 59.78zM777.29 184.78L820.6 209.78L820.6 259.78L777.29 284.78L733.99 259.78L733.99 209.78zM733.99 409.78L777.29 434.78L777.29 484.78L733.99 509.78L690.69 484.78L690.69 434.78zM777.29 484.78L820.6 509.78L820.6 559.78L777.29 584.78L733.99 559.78L733.99 509.78zM907.2 -40.22L950.5 -15.22L950.5 34.78L907.2 59.78L863.9 34.78L863.9 -15.22zM907.2 259.78L950.5 284.78L950.5 334.78L907.2 359.78L863.9 334.78L863.9 284.78zM907.2 409.78L950.5 434.78L950.5 484.78L907.2 509.78L863.9 484.78L863.9 434.78zM993.81 409.78L1037.11 434.78L1037.11 484.78L993.81 509.78L950.5 484.78L950.5 434.78zM1080.41 -40.22L1123.71 -15.22L1123.71 34.78L1080.41 59.78L1037.11 34.78L1037.11 -15.22zM1123.71 184.78L1167.02 209.78L1167.02 259.78L1123.71 284.78L1080.41 259.78L1080.41 209.78zM1080.41 409.78L1123.71 434.78L1123.71 484.78L1080.41 509.78L1037.11 484.78L1037.11 434.78zM1167.02 -40.22L1210.32 -15.22L1210.32 34.78L1167.02 59.78L1123.71 34.78L1123.71 -15.22zM1167.02 109.78L1210.32 134.78L1210.32 184.78L1167.02 209.78L1123.71 184.78L1123.71 134.78zM1210.32 184.78L1253.62 209.78L1253.62 259.78L1210.32 284.78L1167.02 259.78L1167.02 209.78zM1296.92 184.78L1340.23 209.78L1340.23 259.78L1296.92 284.78L1253.62 259.78L1253.62 209.78zM1253.62 409.78L1296.92 434.78L1296.92 484.78L1253.62 509.78L1210.32 484.78L1210.32 434.78zM1383.53 34.78L1426.83 59.78L1426.83 109.78L1383.53 134.78L1340.23 109.78L1340.23 59.78zM1383.53 184.78L1426.83 209.78L1426.83 259.78L1383.53 284.78L1340.23 259.78L1340.23 209.78zM1426.83 -40.22L1470.13 -15.22L1470.13 34.78L1426.83 59.78L1383.53 34.78L1383.53 -15.22zM1470.13 34.78L1513.44 59.78L1513.44 109.78L1470.13 134.78L1426.83 109.78L1426.83 59.78zM1426.83 409.78L1470.13 434.78L1470.13 484.78L1426.83 509.78L1383.53 484.78L1383.53 434.78z' stroke='rgba(245%2c 244%2c 65%2c 0.93)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1037'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
+
 .steps {
     display: flex;
     height: auto;
-    align-items: flex-start;
-
+    align-items: center;
 }
 
 .steps-contents {
     display: flex;
-    max-width: 1276px;
-    margin: 40px 55px 40px 55px;
+    margin: 40px 55px 40px 65px;
     flex-wrap: wrap;
-    
-
 }
 
 .steps-contents > article {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    min-width: 150px;
+    width: 200px;
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
@@ -236,7 +235,7 @@ header a {
     box-shadow: 0px 15px 10px -15px #111; 
     background: white;
     margin-right: 20px;
-    margin-bottom: 4px;
+    margin-bottom: 20px;
    
 }
 
@@ -260,6 +259,9 @@ header a {
   text-align: center;
 }
 
+
+/* Pagamento e Telemedicina */
+
 .payment {
     height: 425px;
     margin-top: 40px;
@@ -268,7 +270,6 @@ header a {
 
 .payment-contents {
     display: flex;
-    max-width: 1276px;
     margin: 0px 55px 0px 55px;
     flex-wrap: nowrap;
    
@@ -286,7 +287,6 @@ header a {
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 70px;
-    width: 720px; 
 }
 
 .payment-public > h1 {
@@ -310,6 +310,8 @@ header a {
    font-weight: 300;
 }
 
+/* Artigos Blog */
+
 .bg-articles {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 17%, rgba(210,229,255,1) 49%, rgba(252,252,252,1) 100%);
@@ -323,11 +325,6 @@ header a {
     display: flex;
     justify-content:center;
 }
-
-.articles-contents > article > img {
-    max-width: 100%;
-}
-
 .articles > h2 {
     font-size: 3rem;
     font-weight: 300;
@@ -338,17 +335,19 @@ header a {
     justify-content:center;
 }
 
+.articles-contents > article > img {
+    max-width: 100%;
+}
+
+
 .articles-contents {
     display: flex;
-    max-width: 1276px;
     margin: 0px 55px 0px 55px;
     flex-wrap: nowrap;
-   
 }
 
 .articles-contents > article {
     height: auto;
-    width: 293px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0px 15px 10px -15px #111; 
@@ -383,7 +382,14 @@ header a {
 
 
 /* Responsividade Tablet */
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1260px) {
+
+    .container {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+
     .payment-public {
         margin-left: 0;
     }
@@ -404,7 +410,6 @@ header a {
         flex-direction: column;
         justify-content: flex-start;
         margin-top: 0;
-        width: 720px; 
     }
 
     .payment-public > h1 {
@@ -433,7 +438,7 @@ header a {
 
     .articles-contents > article {
         height: auto;
-        min-width: 200px;
+        max-width: 400px;
         margin: 0 20px 20px 0;
     }
 
@@ -505,25 +510,38 @@ header a {
       
     }
 
+    .slider-search-box {
+        min-width: 600px;
+        max-height: 95px;
+        align-items: center;
+        justify-content: center;
+    }
+
 
   }
 
-/* Responsividade Celular */
-@media only screen and (max-width: 790px) {
 
-    .payment-public > p {
-        margin: 0 auto;
-        max-width: 500px;
+/* Responsividade Small Tablet */
+@media only screen and (max-width: 1016px) {
+
+    .steps-contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;        
     }
 
+    .steps-contents > article {
+        width: 450px; 
+    }
+    
  
     .slider-search { 
         margin-top: 140px; 
         margin-left: 0;
         
      }
-
-    
 
      .slider-search > h1 {
         font-size: 2.6rem;
@@ -567,8 +585,76 @@ header a {
         height: 57px;
         border: 1px solid #E5E5E5;
         border-radius: 4px;
-        margin-left: 14px;
-        margin-top: 30px;
+       
+      
     }   
 
+    .slider-search-box {
+        min-width: 600px;
+        max-height: 95px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+/* Responsividade Celular */
+@media only screen and (max-width: 636px) {
+    .slider-contents {
+        justify-content: center;
+    }
+    .slider-search-box {
+        min-width: 100%;
+        min-height: 200px;       
+    }
+    .form-search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0 0 0;
+        flex-wrap: wrap;
+    }
+    .slider-search-box select {
+        margin: 0;
+        width: 290px;
+    }
+    .slider-search {
+        margin: 100px 0px 20px 0px;
+    }
+    .steps-contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;        
+    }
+
+    .steps-contents > article {
+        width: 250px; 
+    }
+    
+    .slider-search-box {
+        width: 100%;
+        height: 95px;
+        justify-content: center;
+    }
+
+    .slider-search > h1 {
+       text-align: center;
+        }
+
+    .slider-search > h2 {
+        padding: 0 10px 0 10px;
+        text-align: center;
+        line-height: 20px;
+     
+     }
+
+     .logo {   
+        margin-left: 10px;
+    }
+
+    
 }
